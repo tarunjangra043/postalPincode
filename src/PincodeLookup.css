@@ -1,0 +1,71 @@
+.pincode-lookup {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pincode-input,
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.lookup-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.lookup-button:hover {
+  background-color: #333;
+}
+
+.error {
+  color: red;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+}
+
+.result-section {
+  margin-top: 20px;
+}
+
+.post-office-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.post-office-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-office-card h4 {
+  margin-top: 0;
+  color: #333;
+}
